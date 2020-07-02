@@ -1,0 +1,158 @@
+
+nav{
+    background:rgba(0,0,0,.8)
+}
+.navbar .nav-link{
+text-transform: uppercase;
+padding-left:1rem !important;
+padding-right: 1rem !important;
+font-size: 14px;
+}
+.navbar .navbar-item.active{
+    border-left: #444 3px solid;
+}
+.carousel{
+    height: 450px;
+}
+.carousel img{
+    height: 450px;
+}
+
+
+/*..........Home-section. and background........*/
+#home-section{
+    position: relative;
+    min-height:200px;
+    background:url('img/lights.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.dark-overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+
+}
+/*.............video section..........*/
+#video{
+    position: relative;
+    min-height:200px;
+    background:url('img/lights.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+.dark-overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+
+}
+#image-section img{
+    height:350px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+#fotter{
+    background: rgba(0,0,0,.7);
+    color: #fff;
+   
+}
+/*.............about image..........*/
+#about-img div{
+    border-radius: 5px;
+    
+  
+}
+#about-image div{
+    width: 200px;
+    height: 175px;
+}
+#text .card{
+    width:300px;
+    margin-top:20px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    margin:auto;
+   
+   
+}
+/*...........main-fotter...........*/
+
+/*..........testimonial..........*/
+#testimonial{
+    color: white;
+
+}
+#testimonial button{
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(255,210,155,.1);
+}
+.blockquote{
+    color: white;
+}
+/*..........question section.........*/
+
+#question ul li{
+    background: rgba(255,210,155,.1);
+    color: white;
+}
+/*............contract..........*/
+#contract p{
+font-size:20px;
+  
+}
+#contract .fa-envelope{
+    color: #D44638;
+}
+#contract .fa-facebook-square{
+    background: #3b5998;
+    color: white;
+
+}
+/*staff srction*/
+#staff-section .card{
+    background:#343A40;
+    text-align:center;
+}
+#staff-section .card img{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top:5px;
+}
+
+
+@media (max-width:767px){
+    #text .card{
+        width:100%;
+        
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #image-section img{
+        height: 200px;
+    }
+    #text .card{
+    padding-top:10px;
+    padding-bottom:30px;
+      margin-top: 4rem;
+    }
+    #text .card a{
+        margin-top:15px;
+    }
+}
+
